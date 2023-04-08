@@ -50,7 +50,7 @@ function Task() {
                                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                         <ul class="navbar-nav ml-auto mb-2 mb-lg-0" style={{ marginLeft: 'auto' }}>
                                             <li class="nav-item">
-                                                <a class="nav-link active" style={navLink_style} aria-current="page" href="#home">Home</a>
+                                                <a class="nav-link active" style={navLink_style} aria-current="page" id='home' href="#home">Home</a>
                                             </li>
                                             <li class="nav-item">
                                                 <a class="nav-link" style={navLink_style} href="#about">About</a>
@@ -293,7 +293,8 @@ function Task() {
                                 //     color: 'rgba(255,255,255,0.5)',
                                 //     marginLeft: '150px'
                                 // }}
-                                >Top</p>
+                                >
+                                <a class="nav-link" style={navLink_style} href="#top">Top </a></p>
                                 <a href='mailto:whitearchtech@gmail.com'
                                     class='footer_mail_link'
                                 // style={{
